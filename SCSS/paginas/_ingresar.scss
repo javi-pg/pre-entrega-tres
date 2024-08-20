@@ -1,0 +1,11 @@
+main {display: grid;
+    grid-template-rows: repeat(30, 1fr);
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 5px;
+ .imagen-persona{
+    grid-column: 5 / 7; 
+    grid-row: 2 / 5;
+    height: 120px;
+    padding-left: 30%;}
+    
+}

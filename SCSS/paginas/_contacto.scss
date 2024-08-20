@@ -1,1 +1,52 @@
-
+main {display: grid;
+    grid-template-rows: repeat(30, 1fr);
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 5px;
+    
+        h2 {
+        color: $color-de-textos;
+        font-family: $fuentedeltexto;
+        font-style: normal;
+        text-align: justify;
+        padding-left: 10px;
+        grid-column: 2/10;
+        grid-row: 2/2;
+        }
+        .nombre{
+            font-family: $fuentedeltexto;
+            color: $color-de-textos;
+            font-style: normal;
+            text-align: justify;
+            grid-column: 2/10;
+            grid-row: 3/3;
+        }
+        .input-uno {grid-column: 2/12;
+            grid-row: 3/4;
+            margin-top: 2%;}
+        .correo{
+                font-family: $fuentedeltexto;
+                color: $color-de-textos;
+                font-style: normal;
+                text-align: justify;
+                grid-column: 2/12;
+                grid-row: 4/4;
+            }
+        .input-dos {grid-column: 2/12;
+                grid-row: 4/5;
+                margin-top: 2%;}
+        .escribe {
+            font-family: $fuentedeltexto;
+            color: $color-de-textos;
+            font-style: normal;
+            text-align: justify;
+            grid-column: 2/12;
+            grid-row: 5/5;}
+        .input-tres {
+            grid-column: 2/12;
+            grid-row: 5/6;
+            margin-top: 2%;}  
+        .enviar {grid-column: 2/12;
+            grid-row: 6/6;
+            margin-top: 2%;}  
+    
+}
